@@ -1,0 +1,17 @@
+{
+    "name": "jonathanfontesmonday/papelhigienico",
+    "description": "Nasceu de uma grande necessidade.",
+    "authors": [
+        {
+            "name": "Jonathan Fontes",
+            "email": "jonathan.fontes@monday.pt"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "PapelHigienico": "src/"
+        }
+    }
+}
