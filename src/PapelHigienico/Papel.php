@@ -32,12 +32,12 @@ class Papel {
 
 	/**
 	 * Gastar papel do nosso rolo
-	 * @param  integer $cumprimento em cm.
+	 * @param  integer $comprimento em cm.
 	 * @return true              
 	 */
-	public function gastarPapel($cumprimento = 1)
+	public function gastarPapel($comprimento  = 1)
 	{
-		$this->metros = $this->metros - $cumprimento;
+		$this->metros = $this->metros - $comprimento;
 		return true;
 	}
 
